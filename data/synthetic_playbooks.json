@@ -1,0 +1,14 @@
+[
+  {
+    "threat_id": "THREAT-201",
+    "incident_type": "Kubernetes Pod Privilege Escalation",
+    "target_infrastructure": "Production AWS/Azure Cluster",
+    "containment_steps": [
+      "Isolate the compromised container namespace immediately.",
+      "Revoke the associated ServiceAccount tokens.",
+      "Audit the cluster RBAC roles for privilege misconfigurations.",
+      "Deploy updated NetworkPolicies to block egress to the cloud metadata endpoint."
+    ],
+    "difficulty_level": "Advanced"
+  }
+]

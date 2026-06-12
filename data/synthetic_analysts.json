@@ -1,0 +1,15 @@
+[
+  {
+    "analyst_id": "ANALYST-01",
+    "name": "Alex Mercer",
+    "current_tier": "Tier-1 SOC Analyst",
+    "target_certification": "Certified Incident Handler",
+    "weekly_shift_hours": 40,
+    "current_on_call_status": "Active-High-Alert",
+    "completed_modules": [
+      "Network Baselines",
+      "Syslog Analysis"
+    ],
+    "avg_practical_score": 72
+  }
+]
