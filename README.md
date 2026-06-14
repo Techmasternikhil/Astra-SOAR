@@ -47,12 +47,24 @@ Acting as the autonomous shield, this agent instantly compiles and logs dynamic 
 - **Administrator / root privileges** — required for NIC-level sniffing.
 
 ### 2. Installation
+### Step 1: Clone the repository
 ```bash
-git clone [https://github.com/your-repo/zero_security_reasoning_agent.git](https://github.com/your-repo/zero_security_reasoning_agent.git)
-cd zero_security_reasoning_agent
+git clone [https://github.com/Techmasternikhil/Astra-SOAR](https://github.com/Techmasternikhil/Astra-SOAR)
+cd Astra-SOAR
+```
+### Step 2: Create a virtual environment
+### Windows
+```
 python -m venv .venv
 .venv\Scripts\activate        # Windows
-# source .venv/bin/activate   # Linux/macOS
+```
+### Linux/macOS:
+```
+python -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+```
+### Step 3: Install dependencies
+```
 pip install -r requirements.txt
 ```
 
