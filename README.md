@@ -49,7 +49,7 @@ Acting as the autonomous shield, this agent instantly compiles and logs dynamic 
 ### 2. Installation
 ### Step 1: Clone the repository
 ```bash
-git clone [https://github.com/Techmasternikhil/Astra-SOAR](https://github.com/Techmasternikhil/Astra-SOAR)
+git clone https://github.com/Techmasternikhil/Astra-SOAR
 cd Astra-SOAR
 ```
 ### Step 2: Create a virtual environment
