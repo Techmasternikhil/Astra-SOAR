@@ -21,8 +21,7 @@ By integrating **Shannon Entropy Analysis**, **Multi-Vector Threat Detection**, 
 The system utilizes a decoupled, three-stage agent pipeline:
 
 ## System Architecture
-![Astra-SOAR Architecture](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4ff1a36c-128a-4eeb-8f67-0415858cdeef" />
-)
+![Astra-SOAR Architecture](https://github.com/user-attachments/assets/4ff1a36c-128a-4eeb-8f67-0415858cdeef)
 
 ### 1. The Ingress Sensor Agent (Data Plane)
 Built on `Scapy`, this agent continuously monitors raw IP/TCP/UDP frames on the active network interface. It uses dual-matrix tracking to identify anomalies without relying on static signature updates:
