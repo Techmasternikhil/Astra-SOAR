@@ -21,7 +21,7 @@ By integrating **Shannon Entropy Analysis**, **Multi-Vector Threat Detection**, 
 The system utilizes a decoupled, three-stage agent pipeline:
 
 ## System Architecture
-![Astra-SOAR Architecture](<img width="1536" height="1024" alt="ChatGPT Image Jun 14, 2026, 09_46_35 PM" src="https://github.com/user-attachments/assets/117e2aae-5ca6-4d1f-9a1d-d461adff4ed2" />
+![Astra-SOAR Architecture](<img width="1536" height="1024" alt="ChatGPT Image Jun 14, 2026, 09_46_35 PM" src="https://github.com/user-attachments/assets/4a65be65-8446-4f04-88b6-5343de6f4ddc" />
 )
 
 ### 1. The Ingress Sensor Agent (Data Plane)
