@@ -68,6 +68,15 @@ source .venv/bin/activate   # Linux/macOS
 pip install -r requirements.txt
 ```
 
+### Step 4: Run the app.py
+```
+python src/app.py
+```
+
+### Step 5: Run the UI gui.py
+```
+.\.venv\Scripts\streamlit.exe run src/gui.py
+
 ### 3. Running the Simulation
 To verify AstraSOAR's autonomous response mechanisms, you can simulate real-world traffic patterns from a secondary device (like a smartphone via Termux):
 
